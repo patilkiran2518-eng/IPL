@@ -4,7 +4,7 @@ import entity.Team;
 
 public class TeamRepository {
 
-	//should return MI team details
+	
 	public static Team getMITeamDetails() {
 		Team team = new Team();
 		team.setId(101);

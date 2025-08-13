@@ -26,5 +26,7 @@ public class Test {
 		service.printITeDetails();
 		System.out.println("SR team Details:-");
 		service.printIPTeDetails();
+		
+		System.out.println("Test github");
 		}
 }
