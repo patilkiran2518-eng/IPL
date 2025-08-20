@@ -13,6 +13,7 @@ public class TeamRepository {
 		team.setCoachName("Jaywardhan");
 		team.setQualified(false);
 		team.setnRR(2.3f);
+		team.setShortName("MI");
 		return team;
 	}
 	
@@ -24,6 +25,7 @@ public static Team getCSKTeamDetails() {
 		team.setCoachName("Stephen Fleming");
 		team.setQualified(false);
 		team.setnRR(2.4f);
+		team.setShortName("CSK");
 		return team;
 }
 public static Team getRCBTeamDetails(){
@@ -34,6 +36,7 @@ public static Team getRCBTeamDetails(){
 	team.setCoachName("Andy Flower");
 	team.setQualified(true);
 	team.setnRR(2.5f);
+	team.setShortName("RCB");
 	return team;
 }
 public static Team getDCTeamDetails(){
@@ -44,9 +47,10 @@ public static Team getDCTeamDetails(){
 	team.setCoachName("Hemang Badani");
 	team.setQualified(false);
 	team.setnRR(1.5f);
+	team.setShortName("DCT");
 	return team;
 }
-public static Team getGJeamDetails(){
+public static Team getGJTeamDetails(){
 	Team team = new Team();
 	team.setId(105);
 	team.setTeamName("Gujarat Titans");
@@ -54,9 +58,10 @@ public static Team getGJeamDetails(){
 	team.setCoachName("Ashish Nehara");
 	team.setQualified(false);
 	team.setnRR(2.7f);
+	team.setShortName("GJ");
 	return team;
 }
-public static Team getKKReamDetails(){
+public static Team getKKRTeamDetails(){
 	Team team = new Team();
 	team.setId(106);
 	team.setTeamName("Kolkata Knight Riders");
@@ -64,9 +69,10 @@ public static Team getKKReamDetails(){
 	team.setCoachName("Chandrakant Pandit");
 	team.setQualified(false);
 	team.setnRR(1.3f);
+	team.setShortName("KKR");
 	return team;
 }
-public static Team getLSGeamDetails(){
+public static Team getLSGTeamDetails(){
 	Team team = new Team();
 	team.setId(107);
 	team.setTeamName("Lucknow Super Giants");
@@ -74,9 +80,10 @@ public static Team getLSGeamDetails(){
 	team.setCoachName("Justin Langer");
 	team.setQualified(false);
 	team.setnRR(1.2f);
+	team.setShortName("LSG");
 	return team;
 }
-public static Team getPKeamDetails(){
+public static Team getPKTeamDetails(){
 	Team team = new Team();
 	team.setId(108);
 	team.setTeamName("Punjab Kings");
@@ -84,9 +91,10 @@ public static Team getPKeamDetails(){
 	team.setCoachName("Ricky Ponting");
 	team.setQualified(false);
 	team.setnRR(1.8f);
+	team.setShortName("PK");
 	return team;
 }
-public static Team getRReamDetails(){
+public static Team getRRTeamDetails(){
 	Team team = new Team();
 	team.setId(109);
 	team.setTeamName("Rajasthan Royals");
@@ -94,9 +102,10 @@ public static Team getRReamDetails(){
 	team.setCoachName("Rahul Dravid");
 	team.setQualified(false);
 	team.setnRR(1.f);
+	team.setShortName("RR");
 	return team;
 }
-public static Team getSReamDetails(){
+public static Team getSRHTeamDetails(){
 	Team team = new Team();
 	team.setId(110);
 	team.setTeamName("Sunrisers Hyderabad");
@@ -104,6 +113,7 @@ public static Team getSReamDetails(){
 	team.setCoachName("Daniel Vettori");
 	team.setQualified(false);
 	team.setnRR(1.7f);
+	team.setShortName("SRH");
 	return team;
 }
 }
